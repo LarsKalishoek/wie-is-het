@@ -5,6 +5,15 @@ geschikt = True
 
 #naam
 
+# if int(lengte) > 150 and int(gewicht) > 90:
+#      print('U bent geschikt voor deze baan, neem graag contact met ons op via onze email!')
+# else:
+#     geschikt = False
+#     print('U bent helaas niet geschikt voor deze baan, we wensen u nog een fijne dag!')
+
+
+    
+
 naam = input ('Wat is uw naam?  :')
 kleur = input('Wat is uw favoriete kleur on de 10, graag in weekdagen antwoorden?  : ')
 ass = input('Bent u een sussy baka?  :')
@@ -12,20 +21,20 @@ stoel = input('Wat is uw favoriete stoel?  : ')
 
 #lengte
 lengte = input('Wat is uw lengte in cm?  : ')
-if int(lengte) < 150:
-    print('U bent niet lang genoeg voor de baan.')
-    geschikt = False
-if int(lengte) > 150:
-    print('U bent lang genoeg voor de baan.')
+# if int(lengte) < 150:
+#     print('U bent niet lang genoeg voor de baan.')
+#     geschikt = False
+# if int(lengte) > 150:
+#     print('U bent lang genoeg voor de baan.')
  
-#gewicht
+# #gewicht
 
 gewicht = input('Wat is uw gewicht in hele kg?  : ')
-if int(gewicht) > 90:
-    print('U bent zwaar genoeg voor de baan.')
-if int(gewicht) < 90:
-    print('U bent niet zwaar genoeg voor de baan.')
-    geschikt = False 
+# if int(gewicht) > 90:
+#     print('U bent zwaar genoeg voor de baan.')
+# if int(gewicht) < 90:
+#     print('U bent niet zwaar genoeg voor de baan.')
+#     geschikt = False 
 
 
 
@@ -50,13 +59,20 @@ hoed = input('Bent u eigenaar van een hoge hoed?  J/N  : ')
 geslacht = input('Bent u een man of vrouw?  :')
 if geslacht == 'man':
     snor = input('Hoe breed is uw snor in cm?  :')
-if geslacht == 'vrouw':
+else:
     haar = input('Hoe lang is uw rood krulhaar?  :')
 
 #certicicaat
 
 certificaat = input('Heeft u een certificaat voor "Overleven met gevaarlijk personeel"  : ')
-if geschikt == True:
-    print('U bent geschikt voor deze baan, neem graag contact met ons op via onze email!')
-if geschikt == False:
+# if geschikt == True:
+#     print('U bent geschikt voor deze baan, neem graag contact met ons op via onze email!')
+# else:
+#     print('U bent helaas niet geschikt voor deze baan, we wensen u nog een fijne dag!')
+
+
+if int(lengte) > 150 and int(gewicht) > 90 and diploma = "J" and rijbewijs = "J" and hoed = "J":
+     print('U bent geschikt voor deze baan, neem graag contact met ons op via onze email!')
+else:
+    geschikt = False
     print('U bent helaas niet geschikt voor deze baan, we wensen u nog een fijne dag!')
